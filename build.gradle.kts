@@ -17,8 +17,10 @@ dependencies {
     /**
      * Utils & Logging
      */
-    compileOnly("org.project lombok:lombok")
-    annotationProcessor("org.project lombok:lombok")
+    compileOnly ("org.projectlombok:lombok:1.18.30")
+    annotationProcessor ("org.projectlombok:lombok:1.18.30")
+
+
 }
 
 tasks.test {
